@@ -4,7 +4,7 @@ from PIL import Image
 
 # --- INITIAL SETUP ---
 # Get your key at aistudio.google.com
-genai.configure(api_key="AIzaSyB5rJ7ElkF6TDpG8QFdhPA3Ehzk6E76I2c")
+genai.configure(api_key="my api here")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 st.set_page_config(page_title="Edion AI", page_icon="", layout="centered")
