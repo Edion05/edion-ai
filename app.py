@@ -7,7 +7,7 @@ from PIL import Image
 genai.configure(api_key="AIzaSyB5rJ7ElkF6TDpG8QFdhPA3Ehzk6E76I2c")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
-st.set_page_config(page_title="Edion AI", page_icon="⚡", layout="centered")
+st.set_page_config(page_title="Edion AI", page_icon="", layout="centered")
 
 # --- EDION UI STYLING ---
 st.markdown("""
